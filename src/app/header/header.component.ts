@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   event: string = 'Moisson 2021';
-  event_description: string ='Fete annuelle des moissons organise par l\'Eglise Methodiste Unie Cote d\'Ivoire ';
-  community: string = 'Par Akwedo Israel';
-  step: string = '2eme mini moisson';
+  event_description: string = 'Fête annuelle des moissons organise par l\'Eglise Methodiste Unie Cote d\'Ivoire ';
+  community: string = 'Akwédo Israel';
+  step: string = '2ème mini-moisson';
+  contacts: string = '0709933521';
   constructor() { }
 
   ngOnInit(): void {
