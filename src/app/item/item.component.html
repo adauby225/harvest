@@ -1,15 +1,16 @@
 
   <div class="card mb-4 box-shadow">
-    <!--<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">-->
+
     <div class="card-header">
-      <h4 class="my-0 font-weight-normal">{{article.name}}</h4>
+      <h2 class="my-0 font-weight-normal">{{article.name}}</h2>
+      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src={{article.imgName}}>
     </div>
     <div class="card-body">
-      <h1 class="card-title pricing-card-title">{{article.price}} fcfa <small class="text-muted">/ l'unite</small></h1>
+      <h3 class="card-title pricing-card-title">{{article.price}} fcfa <small class="text-muted">/ {{article.unit}}</small></h3>
       <p class="card-text">{{article.description}}</p>
     </div>
     <div class="card-footer text-muted">
-      Disponible(s): {{article.quantity}}
+      {{article.quantity}}
     </div>
   </div>
 

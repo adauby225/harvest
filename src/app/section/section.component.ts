@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SectionComponent implements OnInit {
   title: string = 'Deuxieme mini moisson';
   theme: string = 'Dieu d\'abord'
-  description: string = 'Liste des articles de la deuxieme mini moisson';
+  description: string = 'Liste des ventes et achat(s) prévu pour la deuxième mini moisson';
   constructor() { }
 
   ngOnInit(): void {
